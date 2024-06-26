@@ -1,0 +1,297 @@
+ 
+ *{
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+  
+ }
+ body{
+  margin: 0px;
+  position: relative;
+ }
+
+ /* .....header div..... */
+
+ header{
+  width: 100%;
+  height: 80px;
+  background-color:transparent ;
+  display: flex;
+  flex-direction: row; 
+  border-bottom:1px solid white;
+  position: fixed;
+  z-index: 5;
+  top: 0%;
+  transition: 0.3s;
+   }
+
+header:hover{
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+
+   .list-left{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+   }
+   .text-left{
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px ;
+   
+    background-color: transparent;
+    
+  }
+
+   .text-left a{
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .text-left a:hover{
+    color: black;
+  }
+  
+  .kia{
+    width:calc(100% /3 );
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+  }
+  
+  .text-right{
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: transparent;
+  }
+  .list-right{
+    list-style: none;
+    display: flex;
+     gap: 30px;
+   }
+   .text-right a{
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+      color: white;
+    font-weight: 500;
+    transition: 0.3s ease;
+   }
+   .text-right a:hover{
+    color: black;
+  }
+
+
+   /* .....inner video .... */
+
+   .vdo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   }
+
+   .vdo video{
+    width: 100%;
+    height: 100%;
+     
+   }
+   .kia-seltos{ 
+    position:absolute;
+    padding-top:30%;
+    color: white;
+    font-family: 'Lucida Sans';
+  }
+
+   .kia-seltos a{
+    font-size: 50px;
+   
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.kia-seltos h2{
+  
+   font-size: large;
+   font-weight: lighter;
+   padding-left: 35px;
+}   
+.kia-seltos button{
+  width: 160px;
+  height: 60px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: medium ;
+  letter-spacing: 1px;
+  margin-top: 80px;
+
+
+}
+
+ /* .....center portion.... */
+
+ .images{
+  width: 100%;
+  height: 830px;
+  margin-top: -4px;
+  display: flex;
+  border-bottom:  1px solid white;
+ }
+
+ .img-right{
+  width:55%;
+  height: 100%;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr ;
+ }
+
+   /* left side div */
+  .image-left{
+    width: 45%;
+    height: 100%  
+  }
+
+  .img-left img{
+      width: 100%;
+      height: 100%; 
+     }
+      
+    .white{
+    background-color:#fff;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+   }
+   .white a{
+    position: absolute;
+    top:60%;
+    right: 20%;
+     font-size: x-large;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+   }
+   .white img{
+    width: 60px;
+    height: 60px;
+   }
+
+
+   .black{
+    background-color: #05141f;    
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+   }
+
+   .black img{
+    width: 60px;
+    height: 60px;
+   }
+   .black a{
+    position: absolute;
+    top:60%;
+    right: 26%;
+     font-size: x-large;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+
+   }
+  
+  
+    /* ....foooter.... */
+
+
+    .footer{
+      width: 100%;
+      height: 660px;
+      background-color:#05141f;
+      align-items: center;
+      justify-content: center;
+        display: flex;
+        position: relative;
+        
+    }
+    .ftr-kia{
+       
+      height: 30px;
+      display: flex;
+      position: absolute;
+      left: 110px;
+      top: 90px;
+      
+
+    }.ftr-text1,.ftr-text2,.ftr-text3,.ftr-text4,.ftr-text5{
+      width:17% ;
+      height:400px;
+      position: relative;
+      
+    }
+    .social img{
+      position: absolute;
+      bottom: 0%;
+      width: 230px;
+       
+
+    }
+
+    .ftr-list,.ftr-list2,.ftr-list3,.ftr-list4,.ftr-list5{
+      list-style: none;
+      
+      
+    }
+    .ftr-list a{
+      font-size: medium;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    line-height: 2;
+    }
+    .ftr-list2 a,.ftr-list3 a,.ftr-list4 a,.ftr-list5 a{
+      font-size:small;
+      font-family: 'Lucida Sans';
+      text-decoration:none;
+      color: white;
+      line-height: 2.5;
+
+    }
+
+       /* ..only for heading.. */
+
+    h1{
+      font-size: medium;
+      font-family: 'Lucida Sans';
+      color: white;
+      font-weight: 900;
+    }
+     
+      
+    
+    
